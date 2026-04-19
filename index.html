@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Laura Capo — Software Engineer & QA Engineer. Portfolio, CV, and contact." />
+  <meta name="author" content="Laura Capo" />
+  <title>Laura Capo — Software & QA Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">LC<span>.</span></a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Hello, I'm</p>
+        <h1 class="hero__title">Laura Capo</h1>
+        <p class="hero__tagline">
+          Software Engineer focused on <span class="accent">quality assurance</span>
+          and <span class="accent">software security testing</span>.
+        </p>
+        <p class="hero__description">
+          I build and break things carefully — designing test plans, automating regression,
+          and shipping reliable software across frontend, backend, and mobile platforms.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#contact">Get in touch</a>
+          <a class="btn btn--ghost" href="#experience">See my work</a>
+        </div>
+        <ul class="hero__meta">
+          <li><a href="mailto:laurairene785@gmail.com">laurairene785@gmail.com</a></li>
+          <li><a href="tel:+17867357522">(786) 735-7522</a></li>
+          <li><a href="https://www.linkedin.com/in/laura-irene-capo-hernandez-8a5313181" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="hero__decor" aria-hidden="true">
+        <div class="blob"></div>
+        <div class="grid"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section__inner">
+        <h2 class="section__title"><span class="section__num">01.</span> About</h2>
+        <div class="about">
+          <p>
+            I'm a Software Engineer with a passion for <strong>quality assurance</strong> and
+            <strong>software security testing</strong>. I bring a strong understanding of the
+            software development life cycle, and I enjoy identifying and documenting defects
+            so teams can ship with confidence.
+          </p>
+          <p>
+            Across roles I've worked on everything from iOS apps in Swift to React and Vue
+            frontends, test automation for call-center platforms, and data pipelines for
+            security analytics. Currently I'm working as a QA Engineer at Orion180.
+          </p>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__num">5+</span>
+              <span class="stat__label">Years building software</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">7</span>
+              <span class="stat__label">Companies & projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">3</span>
+              <span class="stat__label">Degrees in progress / earned</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="section__inner">
+        <h2 class="section__title"><span class="section__num">02.</span> Skills</h2>
+        <div class="skills">
+          <div class="skill-card">
+            <h3>Quality Assurance</h3>
+            <ul>
+              <li>Test plan design &amp; execution</li>
+              <li>Regression testing</li>
+              <li>End-to-end testing</li>
+              <li>Performance metrics</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Automation Testing</h3>
+            <ul>
+              <li>Automated test suites</li>
+              <li>Voice application testing</li>
+              <li>Continuous testing workflows</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Programming &amp; OOP</h3>
+            <ul>
+              <li>JavaScript, Swift, Python</li>
+              <li>React, Vue.js, SwiftUI</li>
+              <li>Object-oriented design</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Data &amp; Security</h3>
+            <ul>
+              <li>Database management</li>
+              <li>Threat &amp; anomaly analysis</li>
+              <li>Dashboards &amp; reporting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section__inner">
+        <h2 class="section__title"><span class="section__num">03.</span> Experience</h2>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__date">Mar 2026 — Present</div>
+            <div class="timeline__content">
+              <h3>QA Engineer <span class="at">@ Orion180</span></h3>
+              <p class="timeline__meta">ASTQB Certified Tester</p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__date">Feb 2023 — Present</div>
+            <div class="timeline__content">
+              <h3>QA Engineer <span class="at">@ IntelePeer</span></h3>
+              <p class="timeline__meta">Dania Beach, FL</p>
+              <ul>
+                <li>Built a website to measure performance of call-center system automation.</li>
+                <li>Developed and executed end-to-end test plans for a call-center automation platform.</li>
+                <li>Performed regression testing at the end of each development cycle.</li>
+                <li>Implemented performance metrics for an online call-center platform.</li>
+                <li>Tested functionality of voice applications.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__date">Oct 2025 — Dec 2025</div>
+            <div class="timeline__content">
+              <h3>Data Analyst Intern <span class="at">@ Canva</span></h3>
+              <p class="timeline__meta">Miami, FL</p>
+              <ul>
+                <li>Analyzed data to detect patterns, anomalies, and potential security risks.</li>
+                <li>Built dashboards and reports to track security-related metrics.</li>
+                <li>Cleaned and organized datasets to support threat analysis.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__date">Jun 2025 — Aug 2025</div>
+            <div class="timeline__content">
+              <h3>STEAM Research Intern <span class="at">@ School of Science &amp; FIU</span></h3>
+              <p class="timeline__meta">Miami, FL</p>
+              <ul>
+                <li>Designed and authored an iOS application for maps and nearby-charger search.</li>
+                <li>Built a main UI search function using Swift and Xcode.</li>
+                <li>Developed a map &amp; search experience with Swift and SwiftUI.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__date">Jun 2022 — Feb 2023</div>
+            <div class="timeline__content">
+              <h3>Software Development Consultant <span class="at">@ Klinklin</span></h3>
+              <p class="timeline__meta">Remote</p>
+              <ul>
+                <li>Facilitated brainstorming and workshops that produced five innovative features.</li>
+                <li>Implemented a login page.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__date">Jun 2020 — Jul 2022</div>
+            <div class="timeline__content">
+              <h3>Frontend Developer <span class="at">@ Colmen Academy</span></h3>
+              <p class="timeline__meta">Remote</p>
+              <ul>
+                <li>Developed a full frontend for a school using React and JavaScript.</li>
+                <li>Integrated a database to manage student and professor logins.</li>
+                <li>Shipped new features each sprint.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__date">Jun 2021 — Jun 2022</div>
+            <div class="timeline__content">
+              <h3>Frontend Developer <span class="at">@ AUGE CRM</span></h3>
+              <p class="timeline__meta">Remote</p>
+              <ul>
+                <li>Built a full frontend with Vue.js and JavaScript.</li>
+                <li>Implemented the login page and shipped new features each sprint.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__date">Sep 2020 — Jan 2021</div>
+            <div class="timeline__content">
+              <h3>Junior Full-Stack Developer <span class="at">@ Novaschool Educative Centers</span></h3>
+              <p class="timeline__meta">Remote</p>
+              <ul>
+                <li>Created a website offering learning tools for kids.</li>
+                <li>Constructed the backend for the website.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="education" class="section section--alt">
+      <div class="section__inner">
+        <h2 class="section__title"><span class="section__num">04.</span> Education &amp; Certifications</h2>
+        <div class="edu-grid">
+          <article class="edu-card">
+            <h3>B.S. Information Technology</h3>
+            <p class="edu-card__meta">Network Major · Cybersecurity Minor</p>
+            <p>Florida International University (FIU) — Miami, FL</p>
+            <p class="edu-card__date">Expected December 2026</p>
+          </article>
+          <article class="edu-card">
+            <h3>A.A. Software Concentration</h3>
+            <p class="edu-card__meta">Computer Science</p>
+            <p>Miami Dade College — Miami, FL</p>
+            <p class="edu-card__date">August 2025</p>
+          </article>
+          <article class="edu-card">
+            <h3>B.S. Computer Sciences</h3>
+            <p class="edu-card__meta">Software Development Path</p>
+            <p>University of Pinar del Río — Pinar del Río</p>
+            <p class="edu-card__date"></p>
+          </article>
+          <article class="edu-card edu-card--cert">
+            <h3>ASTQB Certified Tester</h3>
+            <p class="edu-card__meta">Certification</p>
+            <p>Currently working as QA Engineer at Orion180.</p>
+            <p class="edu-card__date">March 2022</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section__inner contact">
+        <h2 class="section__title"><span class="section__num">05.</span> Get in touch</h2>
+        <p class="contact__lead">
+          I'm always happy to talk testing, security, or new projects.
+          Drop me a line — I read every email.
+        </p>
+        <a class="btn btn--primary btn--lg" href="mailto:laurairene785@gmail.com">Say hello</a>
+        <ul class="contact__links">
+          <li><a href="mailto:laurairene785@gmail.com">laurairene785@gmail.com</a></li>
+          <li><a href="tel:+17867357522">(786) 735-7522</a></li>
+          <li><a href="https://www.linkedin.com/in/laura-irene-capo-hernandez-8a5313181" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>&copy; <span id="year"></span> Laura Capo. Designed &amp; built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
